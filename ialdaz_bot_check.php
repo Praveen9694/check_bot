@@ -3,7 +3,7 @@
 //all rights reserved iAldazActivator
 //bot telegram
 // note => to make the bot pull, you must put this link => https://api.telegram.org/bot$youtoken/setWebhook?url=https://you_domain.com/check/bot/ialdaz_bot_check.php
-$token = 'youtoken_bot';
+$token = '5044344311:AAGbLJboAugX6LwPym7lACWzYunvRF3fuc0';
 $website = 'https://api.telegram.org/bot'.$token;
 
 $input = file_get_contents('php://input');
@@ -81,34 +81,34 @@ elseif(!empty($response->type))
 {
     if($response->FindMyiDevice == "ON")
     {
-        return "✅  𝐢𝐀𝐥𝐝𝐚𝐳 𝐂𝐡𝐞𝐜𝐤 𝐁𝐨𝐭 ✅   \n========================= \n\n<code>SERIAL => </code><u>".$response->Serial.
+        return "✅  Fearless GSM Result ✅   \n========================= \n\n<code>SERIAL => </code><u>".$response->Serial.
 
             "</u><code>\nMODEL => </code><u>".$response->Modelo.
             "</u><code>\nActivation => </code><u>".$response->Activation.
-            "</u><code>\niCloud Lock => </code><u>".$response->FindMyiDevice."</u> ❌\n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅   \niALDAZ </code>";
+            "</u><code>\niCloud Lock => </code><u>".$response->FindMyiDevice."</u> ❌\n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅   \nFearless </code>";
     }
     else{
-        return "✅  𝐢𝐀𝐥𝐝𝐚𝐳 𝐂𝐡𝐞𝐜𝐤 𝐁𝐨𝐭 ✅   \n========================= \n\n<code>SERIAL => </code><u>".$response->Serial.
+        return "✅  Fearless GSM Result ✅   \n========================= \n\n<code>SERIAL => </code><u>".$response->Serial.
 
             "</u><code>\nMODEL => </code><u>".$response->Modelo.
             "</u><code>\nActivation => </code><u>".$response->Activation.
-            "</u><code>\niCloud Lock => </code><u>".$response->FindMyiDevice."</u> 🍎✅ \n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅ \niALDAZ </code>";
+            "</u><code>\niCloud Lock => </code><u>".$response->FindMyiDevice."</u> 🍎✅ \n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅ \nFearless </code>";
     }
 }
 else
         {
             if($response->FindMyiDevice == "ON")
             {
-        return "✅  𝐢𝐀𝐥𝐝𝐚𝐳 𝐂𝐡𝐞𝐜𝐤 𝐁𝐨𝐭 ✅   \n========================= \n\n<code>SERIAL => </code><u>".$response->Serial.
+        return "✅  Fearless GSM Result ✅   \n========================= \n\n<code>SERIAL => </code><u>".$response->Serial.
             "</u><code>\nMODEL => </code><u>".$response->Modelo.
             "</u><code>\nActivation => </code><u>".$response->Activation.
-            "</u><code>\niCloud Lock => </code><u>".$response->FindMyiDevice."</u> ❌\n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅   \niALDAZ </code>";
+            "</u><code>\niCloud Lock => </code><u>".$response->FindMyiDevice."</u> ❌\n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅   \nFearless </code>";
             }
             else{
-        return "✅  𝐢𝐀𝐥𝐝𝐚𝐳 𝐂𝐡𝐞𝐜𝐤 𝐁𝐨𝐭 ✅   \n========================= \n\n<code>SERIAL => </code><u>".$response->Serial.
+        return "✅  Fearless GSM Result ✅   \n========================= \n\n<code>SERIAL => </code><u>".$response->Serial.
             "</u><code>\nMODEL => </code><u>".$response->Modelo.
             "</u><code>\nActivation => </code><u>".$response->Activation.
-            "</u><code>\niCloud Lock => </code><u>".$response->FindMyiDevice."</u> 🍎✅ \n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅ \niALDAZ </code>";
+            "</u><code>\niCloud Lock => </code><u>".$response->FindMyiDevice."</u> 🍎✅ \n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅ \nFearless </code>";
             }
         }
 }
@@ -165,12 +165,12 @@ elseif(!empty($response->type))
     {
         return "✅  iCCID ACTIVE ✅   \n========================= \n\n<code>Active date  => </code><u>".$response->fecha.
         "</u><code>\nBUILD => </code><u>".$response->build.
-            "</u><code>\niccid => </code><u>".$response->iccid."</u> 🍎✅ \n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅ \niALDAZ </code>";
+            "</u><code>\niccid => </code><u>".$response->iccid."</u> 🍎✅ \n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅ \nFearless </code>";
     }
     else{
         return "✅  iCCID ACTIVE ✅   \n========================= \n\n<code>Active date  => </code><u>".$response->fecha.
         "</u><code>\nBUILD => </code><u>".$response->build.
-            "</u><code>\niccid Active => </code><u>".$response->iccid."</u> 🍎✅ \n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅ \niALDAZ </code>";
+            "</u><code>\niccid Active => </code><u>".$response->iccid."</u> 🍎✅ \n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅ \nFearless </code>";
     }
 }
 else
@@ -179,12 +179,12 @@ else
             {
         return "✅  iCCID ACTIVE ✅   \n========================= \n\n<code>Active date  => </code><u>".$response->fecha.
         "</u><code>\nBUILD => </code><u>".$response->build.
-            "</u><code>\niccid Active => </code><u>".$response->iccid."</u> 🍎✅ \n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅ \niALDAZ </code>";
+            "</u><code>\niccid Active => </code><u>".$response->iccid."</u> 🍎✅ \n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅ \nFearless </code>";
             }
             else{
         return "✅  iCCID ACTIVE ✅   \n========================= \n\n<code>Active date  => </code><u>".$response->fecha.
         "</u><code>\nBUILD => </code><u>".$response->build.
-            "</u><code>\niccid Active => </code><u>".$response->iccid."</u> 🍎✅ \n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅ \niALDAZ </code>";
+            "</u><code>\niccid Active => </code><u>".$response->iccid."</u> 🍎✅ \n<code>   \n=========================== \n\n𝑻𝒉𝒂𝒏𝒌𝒔 𝒀𝒐𝒖. ✅ \nFearless </code>";
             }
         }
 }
